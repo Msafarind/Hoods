@@ -4,6 +4,7 @@ googleAnalytics = ""
 languageCode = "en-us"
 paginate = "10"
 title = "San Diego Hood Cleaning Pros"
+theme = "hoods"
 [Params]
 authorbox = true
 description = "We will cleaning anything in your professional kitchen!"
