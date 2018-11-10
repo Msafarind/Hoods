@@ -1,23 +1,26 @@
-baseurl = "/"
-disqusShortname = ""
-googleAnalytics = ""
+baseurl = "https://sandiegohoodcleaningpros.com"
 languageCode = "en-us"
-paginate = "10"
 title = "San Diego Hood Cleaning Pros"
-theme = "hoods"
-[Params]
-authorbox = true
-description = "We will cleaning anything in your professional kitchen!"
-opengraph = true
-postSections = ["post"]
-post_navigation = true
-readmore = false
-subtitle = "(555) 555-5555"
-twitter_cards = false
-[Params.widgets]
-recent_num = 5
-tags_counter = false
-[[menu.main]]
-name = "Test"
-url = "https://sandiegohoodcleaningpros.com/test"
-weight = 5
+canonifyUrls = "true"
+theme = "landing"
+
+[params]
+    description = "The best widgets in the world!"
+    custom_css = ["css/local.css"]
+
+[[params.social]]
+    title = "email"
+    icon = "envelope-o"
+    url = "mailto:bushbama@whitehouse.gov"
+[[params.social]]
+    title = "twitter"
+    icon = "twitter"
+    url = "https://twitter.com/SBootstrap"
+[[params.social]]
+    title = "github"
+    icon = "github"
+    url = "https://github.com/IronSummitMedia/startbootstrap"
+[[params.social]]
+    title = "linkedin"
+    icon = "linkedin"
+    url = "http://linkedin.com/in/yourusername"
