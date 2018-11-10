@@ -7,3 +7,5 @@ fields:
   name: Test
   label: " "
   default: Test
+pages:
+- content/test.md
