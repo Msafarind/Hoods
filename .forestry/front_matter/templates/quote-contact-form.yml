@@ -1,0 +1,53 @@
+---
+label: Quote Contact Form
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  config:
+    required: true
+  default: Name
+  label: " "
+  name: Name
+- type: text
+  default: Restaurant / Property Name
+  label: " "
+  name: Property_Name
+  config:
+    required: true
+- type: text
+  default: Email
+  label: " "
+  name: Email
+  config:
+    required: true
+- type: text
+  name: Address_1
+  label: " "
+  default: Address 1
+  config:
+    required: true
+- type: text
+  default: Address 2
+  name: Address_2
+  label: " "
+  config:
+    required: true
+- type: text
+  name: City
+  config:
+    required: true
+  default: San Diego
+  label: " "
+- type: text
+  label: " "
+  name: Zip_Code
+  default: Zip Code
+  config:
+    required: true
+- type: text
+  label: " "
+  name: Comment_Area
+  config:
+    required: false
+  default: Comment or Message
