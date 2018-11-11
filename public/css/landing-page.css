@@ -8,9 +8,6 @@ body,
 html {
     width: 100%;
     height: 100%;
-    background-color: #656565;
-    padding-right: 300px;
-    padding-left: 300px;
 }
 
 body,
@@ -24,34 +21,17 @@ h6 {
     font-weight: 700;
 }
 
-#about.container.content-section.text-center {
-    background-color: #f8f8f8;
-}
-
 .lead {
     font-size: 18px;
     font-weight: 400;
 }
 
-#services.content-section-a.contaier {
-    margin-right: 500px;
-}
-
-.top {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 0px;
-    text-align: center;
-    color: #DD5656;
-    background-color: #f8f8f8
-}
-
 .intro-header {
-    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 0px;
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
     text-align: center;
-    text-shadow: 2px 2px 3px rgba(0,0,0,1);
-    color: #DD5656;
-    background: url(../img/kitchen.jpg) no-repeat center center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -63,7 +43,7 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,1);
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
 }
 
@@ -101,12 +81,6 @@ h6 {
     }
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
-}
-
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -114,11 +88,15 @@ h6 {
     letter-spacing: 2px;
 }
 
-.content-section-a{
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
-    background-color: #f8f8f8
 }
 
 .section-heading {
@@ -136,7 +114,6 @@ h6 {
     color: #f8f8f8;
     background: url(../img/contact-bg.jpg) no-repeat center center;
     background-size: cover;
-    background-color: #f8f8f8;
 }
 
 .contact h2 {

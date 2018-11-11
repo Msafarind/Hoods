@@ -1,11 +1,10 @@
 baseurl = "https://sandiegohoodcleaningpros.com"
 languageCode = "en-us"
-title = "San Diego Hood Cleaning Pros"
+title = "Restaurant Hood Cleaning Services San Diego, California"
 canonifyUrls = "true"
 theme = "hoods"
 
 [params]
-    description = "The best widgets in the world!"
     custom_css = ["css/local.css"]
 
 [[params.social]]
