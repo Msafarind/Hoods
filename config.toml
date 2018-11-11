@@ -2,7 +2,7 @@ baseurl = "https://sandiegohoodcleaningpros.com"
 languageCode = "en-us"
 title = "San Diego Hood Cleaning Pros"
 canonifyUrls = "true"
-theme = "landing"
+theme = "hoods"
 
 [params]
     description = "The best widgets in the world!"
