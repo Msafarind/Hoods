@@ -8,4 +8,5 @@ fields:
   label: " "
   default: Test
 pages:
+- content/front-page.md
 - content/entry.md
